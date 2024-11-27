@@ -1,0 +1,13 @@
+
+[
+    {
+        "id": 1,
+        "name": "Buy groceries",
+        "status": "pending"
+    },
+    {
+        "id": 2,
+        "name": "Complete homework",
+        "status": "completed"
+    }
+]

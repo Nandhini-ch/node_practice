@@ -1,0 +1,111 @@
+Why Node.js?
+Node.js uses asynchronous programming!
+
+A common task for a web server can be to open a file on the server and return the content to the client.
+
+Here is how PHP or ASP handles a file request:
+
+Sends the task to the computer's file system.
+Waits while the file system opens and reads the file.
+Returns the content to the client.
+Ready to handle the next request.
+Here is how Node.js handles a file request:
+
+Sends the task to the computer's file system.
+Ready to handle the next request.
+When the file system has opened and read the file, the server returns the content to the client.
+Node.js eliminates the waiting, and simply continues with the next request.
+
+Node.js runs single-threaded, non-blocking, asynchronous programming, which is very memory efficient.
+
+What Can Node.js Do?
+Node.js can generate dynamic page content
+Node.js can create, open, read, write, delete, and close files on the server
+Node.js can collect form data
+Node.js can add, delete, modify data in your database
+What is a Node.js File?
+Node.js files contain tasks that will be executed on certain events
+A typical event is someone trying to access a port on the server
+Node.js files must be initiated on the server before having any effect
+Node.js files have extension ".js"
+
+Built-in Modules
+
+fs: File system
+http: HTTP server/client
+events: EventEmitter
+path: File and directory paths
+os: Operating system information
+
+
+Express.js Framework
+Basics
+Middleware
+Routing
+Request and Response handling
+Advanced
+Error handling
+Middleware chaining
+REST API creation
+
+
+
+
+
+
+
+
+////
+5. Asynchronous Programming
+Callbacks
+Promises
+Async/Await
+Tasks:
+
+Write a function to fetch data from a public API using axios or node-fetch.
+Simulate an asynchronous task using setTimeout and handle it with a Promise.
+6. Advanced Topics
+Event Loop and Non-blocking I/O
+Streams
+Readable, writable, transform streams.
+Cluster
+Load balancing.
+Child Processes
+Running shell commands or separate scripts.
+Tasks:
+
+Create a script that processes a large file using streams.
+Use child_process to execute shell commands.
+7. Preparing for Interviews
+Commonly Asked Topics
+
+Middleware and routing in Express.
+How Node.js handles concurrency and the event loop.
+Database integration with Node.js.
+Building scalable APIs.
+Error handling.
+Real-world problems like rate limiting or authentication.
+Behavioral Questions
+
+Challenges faced while working with Node.js.
+Experience with asynchronous tasks.
+Handling performance bottlenecks.
+Coding Questions
+
+Reverse a string/file contents.
+Build a rate limiter for an API.
+Write a Node.js script to fetch and display API data.
+8. Mock Interview Practice
+I can simulate an interview for you:
+
+Technical Questions
+Explain the Event Loop.
+Difference between setImmediate and process.nextTick.
+How do you handle uncaught exceptions in Node.js?
+Problem Solving
+Write a REST API endpoint to fetch data from a database.
+Create a middleware to log request details.
+System Design
+Design a scalable chat application backend using WebSocket.
+Explain how you would deploy a Node.js application.
+
